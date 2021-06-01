@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <title>Consulta CNPJ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>Consulta CNPJ</title>
+</head>
+
+<body>
+    <h1>Digite o CNPJ!</h1>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="cnpj" aria-label="Digite o CNPJ" aria-describedby="button-addon2">
+        <div class="input-group-append"></div>
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                onclick="botaoPesquisar()">Pesquisar</button>
+        </div>
+    </div>
+
+    <div id="conteudo" class="form-group">
+        <div class="col-sm-8" style="background-color:lavender;">CNPJ:</div>
+        <div class="col-sm-8" id="numeroCnpj" style="background-color:lavender;"></div>
+
+        <div class="col-sm-8" style="background-color:lightblue;">Razão Social:</div>
+        <div class="col-sm-8" id="razaoSocial" style="background-color:lightblue;"></div>
+
+        <div class="col-sm-8" style="background-color:lavender;">Nome fantasia:</div>
+        <div class="col-sm-8" id="nomeFantasia" style="background-color:lavender;"></div>
+
+        <div class="col-sm-8" style="background-color:lightblue;">Situação Cadastral:</div>
+        <div class="col-sm-8" id="situacaoCadastral" style="background-color:lightblue;"></div>
+
+
+    </div>
+
+    </div>
+
+
+</body>
+
+
+</html>
